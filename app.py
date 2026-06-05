@@ -25,7 +25,7 @@ def show_main_page():
     )
 
     try:
-        image = Image.open('data/titanic.jpg')
+        image = Image.open('titanic.jpg')
         st.image(image)
     except:
         st.info("Изображение не загружено")
